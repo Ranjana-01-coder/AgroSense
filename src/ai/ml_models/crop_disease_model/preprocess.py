@@ -1,0 +1,1 @@
+# preprocessing stubs for images

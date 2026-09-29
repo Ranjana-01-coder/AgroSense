@@ -1,0 +1,9 @@
+Region
+Soil_Type
+Crop
+Rainfall_mm
+Temperature_Celsius
+Fertilizer_Used
+Irrigation_Used
+Weather_Condition
+Days_to_Harvest

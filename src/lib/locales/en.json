@@ -1,0 +1,305 @@
+
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "aiFarmer": "AI Farmer",
+    "diseaseDetection": "Disease Detection",
+    "soilAnalysis": "Soil Analysis",
+    "weatherForecast": "Weather Forecast",
+    "cropRecommendation": "Crop Recommendation",
+    "yieldPrediction": "Yield Prediction",
+    "reports": "Reports",
+    "tutorials": "Tutorials",
+    "settings": "Settings",
+    "logOut": "Log out",
+    "user": "User",
+    "guest": "Guest",
+    "saveChanges": "Save Changes",
+    "downloadReport": "Download Report",
+    "submit": "Submit"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your AgroSense Dashboard",
+    "welcomeBack": "Welcome back, {{name}}!",
+    "description": "Your all-in-one solution for smart farming. Get started by exploring the features below.",
+    "goTo": "Go to {{feature}}",
+    "features": {
+      "profile": {
+        "title": "Profile",
+        "description": "View and edit your user profile and farm details."
+      },
+      "aiFarmer": {
+        "title": "AI Farmer",
+        "description": "Ask any agriculture-related question to our AI assistant."
+      },
+      "diseaseDetection": {
+        "title": "Disease Detection",
+        "description": "Upload an image to detect crop diseases instantly."
+      },
+      "soilAnalysis": {
+        "title": "Soil Analysis",
+        "description": "Get nutrient deficiency reports from soil data."
+      },
+      "weather": {
+        "title": "Weather Forecast",
+        "description": "Check the weather forecast for your region."
+      },
+      "cropRecommendation": {
+        "title": "Crop Recommendation",
+        "description": "Find the best crops for your conditions."
+      },
+      "yieldPrediction": {
+        "title": "Yield Prediction",
+        "description": "Predict your crop yield with high accuracy."
+      },
+      "reports": {
+        "title": "Reports",
+        "description": "Visualize historical data and farm performance."
+      },
+      "tutorials": {
+        "title": "Tutorials",
+        "description": "Learn how to use AgroSense with our video guides."
+      },
+       "settings": {
+        "title": "Settings",
+        "description": "Adjust app settings like language and theme."
+      }
+    }
+  },
+  "login": {
+    "login": "Login",
+    "prompt": "Enter your email below to login to your account",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "Don't have an account?",
+    "signup": "Sign up",
+    "loginFailedTitle": "Login Failed",
+    "loginFailedDescription": "Invalid email or password. Please try again."
+  },
+  "signup": {
+    "createAccount": "Create an Account",
+    "prompt": "Enter your email and password to get started.",
+    "email": "Email",
+    "password": "Password",
+    "haveAccount": "Already have an account?",
+    "login": "Login",
+    "accountCreatedTitle": "Account Created!",
+    "accountCreatedDescription": "Welcome to AgroSense. Please complete your profile.",
+    "signupFailedTitle": "Signup Failed",
+    "signupFailedDescription": "This email might already be in use. Please try another."
+  },
+  "profile": {
+    "title": "Your Profile",
+    "description": "Update your personal information and land details here.",
+    "personalInfo": "Personal Information",
+    "personalInfoDesc": "This is your personal information.",
+    "fullName": "Full Name",
+    "age": "Age",
+    "phoneNumber": "Phone Number",
+    "address": "Address",
+    "cityVillage": "City/Village",
+    "district": "District",
+    "state": "State",
+    "landInfo": "Land Information",
+    "landInfoDesc": "Details about your agricultural land.",
+    "landSize": "Land Size (in acres)",
+    "soilType": "Primary Soil Type",
+    "soilTypeDesc": "This will help in providing better recommendations.",
+    "profileUpdatedTitle": "Profile Updated",
+    "profileUpdatedDesc": "Your information has been saved successfully.",
+    "profileUpdateError": "Failed to update your profile. Please try again."
+  },
+  "aiFarmer": {
+    "title": "AI Farmer",
+    "description": "Ask me anything about agriculture. I can help you with doubts about crops, soil, pests, and more, in your preferred language.",
+    "askAnything": "Ask me anything about farming!",
+    "askInLanguage": "Ask a question in {{language}}...",
+    "errorTitle": "An error occurred",
+    "errorDescription": "Failed to get a response from AI Farmer. Please try again."
+  },
+  "diseaseDetection": {
+    "title": "Crop Disease Detection",
+    "description": "Upload an image of a crop leaf, and our AI will analyze it for diseases and provide recommendations.",
+    "uploadTitle": "Upload Crop Image",
+    "chooseFile": "Choose File",
+    "selectedFile": "Selected: {{fileName}}",
+    "imagePreview": "Image Preview:",
+    "analyzeImage": "Analyze Image",
+    "analysisResult": "Analysis Result",
+    "analyzing": "Analyzing image, please wait...",
+    "uploadToSee": "Upload an image to see the analysis result.",
+    "errorTitle": "An error occurred",
+    "errorDescription": "Failed to analyze the image. Please try again.",
+    "healthStatus": "Health Status",
+    "confidence": "Confidence Score",
+    "recommendations": "Recommendations",
+    "report": {
+        "title": "CROP HEALTH REPORT",
+        "status": "STATUS",
+        "disease": "DISEASE",
+        "certainty": "CERTAINTY",
+        "advice": "ADVICE"
+    }
+  },
+  "soilAnalysis": {
+    "title": "Soil Nutrient Analysis",
+    "description": "Enter your soil composition data to get a detailed analysis of nutrient deficiencies and fertilization recommendations.",
+    "enterData": "Enter Soil Data",
+    "nitrogen": "Nitrogen (N)",
+    "phosphorus": "Phosphorus (P)",
+    "potassium": "Potassium (K)",
+    "ph": "pH",
+    "organicMatter": "Organic Matter",
+    "analyzeSoil": "Analyze Soil",
+    "analysisResult": "Analysis Result",
+    "analyzing": "Analyzing data, please wait...",
+    "enterToSee": "Enter your soil data to see the analysis result.",
+    "errorTitle": "An error occurred",
+    "errorDescription": "Failed to analyze soil data. Please try again.",
+    "nutrientLevels": "Nutrient Levels",
+    "nutrientDeficiencies": "Nutrient Deficiencies",
+    "fertilizationRecs": "Fertilization Recommendations",
+    "improvementTips": "Improvement Tips",
+    "report": {
+      "title": "SOIL ANALYSIS REPORT",
+      "condition": "SOIL CONDITION",
+      "nitrogen": "Nitrogen (N)",
+      "phosphorus": "Phosphorus (P)",
+      "potassium": "Potassium (K)",
+      "ph": "pH Level",
+      "organicMatter": "Organic Matter",
+      "analysis": "ANALYSIS",
+      "fertilizerAdvice": "FERTILIZER ADVICE",
+      "improvementTips": "IMPROVEMENT TIPS"
+    }
+  },
+  "cropRecommendation": {
+    "title": "Crop Recommendation",
+    "description": "Get AI-powered crop suggestions based on your local conditions. Enter details about the season, soil, and weather.",
+    "enterConditions": "Enter Field Conditions",
+    "season": "Season",
+    "selectSeason": "Select a season",
+    "soilPh": "Soil pH",
+    "avgRainfall": "Average Annual Rainfall (mm)",
+    "avgTemp": "Average Temperature (°C)",
+    "getRecommendations": "Get Recommendations",
+    "aiRecommendations": "AI Recommendations",
+    "generating": "Generating recommendations...",
+    "enterToSee": "Enter your conditions to see crop recommendations.",
+    "errorTitle": "An error occurred",
+    "errorDescription": "Failed to get recommendations. Please try again.",
+    "recommendedCrops": "Recommended Crops",
+    "reasoning": "Reasoning",
+    "seasons": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn (Fall)",
+      "winter": "Winter",
+      "monsoon": "Monsoon",
+      "dry": "Dry Season"
+    }
+  },
+  "yieldPrediction": {
+    "title": "Crop Yield Prediction",
+    "description": "Forecast your crop yield by providing historical data, weather patterns, and soil conditions.",
+    "enterData": "Enter Prediction Data",
+    "cropType": "Crop Type",
+    "state": "State",
+    "selectState": "Select a state",
+    "district": "District",
+    "selectDistrict": "Select a district",
+    "previousYield": "Previous Year's Yield (tons/hectare)",
+    "avgRainfall": "Average Annual Rainfall (mm)",
+    "avgTemp": "Average Annual Temperature (°C)",
+    "soilPh": "Soil pH",
+    "predictYield": "Predict Yield",
+    "prediction": "Yield Prediction",
+    "calculating": "Calculating prediction...",
+    "enterToSee": "Enter data to see the yield prediction.",
+    "errorTitle": "An error occurred",
+    "errorDescription": "Failed to predict yield. Please try again.",
+    "predictedYield": "Predicted Yield",
+    "unit": "tons/hectare",
+    "confidence": "Confidence Interval: {{interval}}",
+    "influencingFactors": "Influencing Factors & Recommendations",
+    "keyFactors": "Key Factors:",
+    "recommendations": "Recommendations:"
+  },
+  "weather": {
+    "title": "Weather Forecast",
+    "description": "Get real-time weather updates and forecasts for your location.",
+    "getCurrentLocation": "Get Current Location",
+    "fetching": "Fetching weather data...",
+    "error": "Error",
+    "retry": "Retry",
+    "fetchForLocation": "Click the button to fetch weather for your location.",
+    "currentWeather": "Current Weather",
+    "fiveDayForecast": "5-Day Forecast",
+    "errorFetch": "Failed to fetch weather data. Please ensure your API key is correct and active.",
+    "errorLocation": "Could not access your location. Please enable location services in your browser settings.",
+    "errorLocationDenied": "Location Access Denied",
+    "errorLocationDeniedDesc": "Please enable location services to get local weather.",
+    "errorGeolocation": "Geolocation is not supported by your browser.",
+    "errorGeolocationNotSupported": "Geolocation Not Supported",
+    "errorGeolocationNotSupportedDesc": "Your browser does not support geolocation."
+  },
+  "reports": {
+    "title": "Reports & Analytics",
+    "description": "Visualize historical data to gain insights into your farm's performance.",
+    "monthlyYield": "Monthly Crop Yield",
+    "yieldJanJun": "January - June 2024",
+    "diseaseDistribution": "Disease Distribution",
+    "lastSixMonths": "Last 6 months",
+    "soilNutrient": "Average Soil Nutrient Levels",
+    "acrossFields": "Across all fields"
+  },
+  "tutorials": {
+    "title": "Tutorials",
+    "description": "Learn how to make the most of AgroSense with these quick guides and videos.",
+    "gettingStarted": "Getting Started with AgroSense",
+    "videoWalkthrough": "Watch this short video for a complete walkthrough of the app's main features.",
+    "howToGuides": "How-To Guides",
+    "howToGuidesDesc": "Quick steps to use our key features.",
+    "diseaseDetectionGuide": {
+      "title": "How to use Disease Detection?",
+      "step1": "Navigate to the **Disease Detection** page from the sidebar.",
+      "step2": "Click \"Choose File\" and select a clear image of a crop leaf.",
+      "step3": "Click **Analyze Image** and wait for the AI to provide a diagnosis and recommendations."
+    },
+    "cropRecommendationGuide": {
+      "title": "How to get a Crop Recommendation?",
+      "step1": "Navigate to the **Crop Recommendation** page.",
+      "step2": "Fill in the details about your season, soil pH, rainfall, and temperature.",
+      "step3": "Click **Get Recommendations** to see a list of suitable crops and the AI's reasoning."
+    },
+    "profileGuide": {
+      "title": "How to update my Profile?",
+      "step1": "Click on your profile icon in the top right (or bottom of the sidebar) and select **Profile**.",
+      "step2": "Fill in your personal and land information in the respective forms.",
+      "step3": "Click **Save Changes**. Your data is securely saved for future use."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Customize your application experience.",
+    "appearance": "Appearance",
+    "appearanceDesc": "Customize the look and feel of the app.",
+    "theme": "Theme",
+    "selectTheme": "Select a theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "language": "Language",
+    "feedbackTitle": "Feedback",
+    "feedbackDesc": "Have a suggestion or found a bug? Let us know.",
+    "yourFeedback": "Your Feedback",
+    "feedbackPlaceholder": "Tell us what you think...",
+    "submitFeedback": "Submit Feedback",
+    "feedbackSuccessTitle": "Feedback Sent",
+    "feedbackSuccessDesc": "Thank you for helping us improve AgroSense!"
+  },
+  "languageSelector": {
+    "selectLanguage": "Select Language"
+  }
+}
